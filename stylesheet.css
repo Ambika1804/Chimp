@@ -90,7 +90,8 @@ header {
   z-index: 10;
 }
 
-.logo {
+.logo 
+{
   width: 45px;
   margin-top: 10px;
 }
