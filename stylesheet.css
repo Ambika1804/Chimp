@@ -24,7 +24,8 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  //background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(https://www.goindigo.in/content/dam/indigov2/6e-website/homepage/banner/desktop/2019/03/Sales_Mar19_HmPgBnnr_1600x800_bg.jpg);
   background-size: cover;
   color: white;
   text-align: center;
