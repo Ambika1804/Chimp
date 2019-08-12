@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#mainDiv
+{
+	  font-family:"sans-serif";
+	    background-color: '#A9A9A9';
+  //background-image: url("https://www.goindigo.in/content/dam/indigov2/6e-website/homepage/banner/desktop/2019/03/Sales_Mar19_HmPgBnnr_1600x800_bg.jpg");
+
+
+}
+#tableData {
+  text-align: center;
+  //font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+//border-collapse: collapse;
+ //border: 3px solid #ddd;
+  margin: auto;
+  width: 50%;
+  //padding: 1px 1px 1px 1px;
+  display: block;
+  
+
+}
+
+
+
+#tableData td, #tableData th {
+  border: 1px solid #D3D3D3;
+  padding: 8px;
+}
+
+//#tableData tr:nth-child(even){background-color: #D3D3D3;}
+#tableData tr:nth-child{background-color: #D3D3D3;}
+
+
+#tableData tr:hover {background-color: #ddd;}
+
+#tableData th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #000;
+  color: white;
+}
